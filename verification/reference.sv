@@ -22,8 +22,8 @@ class ram_reference;
 					begin
 						trans_ref=new();
 						mbx_drv.get(trans_ref);
-                                                if(vif.ref_cb.rst == 0) begin
-                                                  foreach(mem_ref[i]) begin
+                            if(vif.ref_cb.rst == 0) begin
+                            foreach(mem_ref[i]) begin
 						    mem_ref[i] = 0;
 						  end
 						  trans_ref.data_out = 'z;
