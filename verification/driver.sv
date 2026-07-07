@@ -1,0 +1,44 @@
+//`include "defines.svh"
+class ram_driver;
+	transaction trans1;
+
+	//mailbox for driver
+	mailbox#(transaction) mbx_drv;
+
+	//mailbox for reference model
+	mailbox#(transaction) mbx_ref;
+
+	//declaring of interface
+	virtual inf.DRV vif;
+
+	function new(mailbox#(transaction)mbx_drv,mailbox#(transaction)mbx_ref,virtual inf.DRV vif);
+		this.mbx_drv=mbx_drv;
+		this.mbx_ref=mbx_ref;
+		this.vif=vif;
+	endfunction
+
+	task start();
+		repeat(3) @(vif.drv_cb);//just creating a delay
+
+		repeat(`num_transaction)
+		begin
+			mbx_drv.get(trans1);
+			repeat(1)@(vif.drv_cb); //creates one delay
+			vif.drv_cb.data_in<=trans1.data_in;
+			vif.drv_cb.w_en<=trans1.w_en;
+			vif.drv_cb.r_en<=trans1.r_en;
+			vif.drv_cb.addr<=trans1.addr;
+			repeat(1)@(vif.drv_cb);
+			$display("Driving to interface");
+			$display("data_in:%h,w_en:%b,r_en:%b,addr:%h",vif.drv_cb.data_in,vif.drv_cb.w_en,vif.drv_cb.r_en,vif.drv_cb.addr);
+
+			//now mailbox for reference model
+			mbx_ref.put(trans1);
+		end
+	endtask
+endclass
+
+
+
+
+
