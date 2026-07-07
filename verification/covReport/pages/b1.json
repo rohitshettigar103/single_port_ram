@@ -31,51 +31,59 @@ b97:[{dummy:0},
 ,{cr:'c',t:'I',z:'                                                if(vif.ref_cb.rst == 0) b...',f:'reference.sv',l:'25',h:'3',c:'g'}
 ,{cr:'c',t:'E',z:'						else begin',f:'reference.sv',l:'31',h:'37',c:'g'}
 ]},
-{anchor:'cvg99',items:[{z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'34',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'34',h:'12',c:'g'}
-,{cr:'c',t:'A',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'34',h:'25',c:'g'}
+{anchor:'cvg99',items:[{z:'							if(!trans_ref.w_en&&!trans_ref.r_en)',f:'reference.sv',l:'33',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'							if(!trans_ref.w_en&&!trans_ref.r_en)',f:'reference.sv',l:'33',h:'15',c:'g'}
+,{cr:'c',t:'A',z:'							if(!trans_ref.w_en&&!trans_ref.r_en)',f:'reference.sv',l:'33',h:'22',c:'g'}
 ]},
-{anchor:'cvg100',items:[{z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'40',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'40',h:'10',c:'g'}
-,{cr:'c',t:'A',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'40',h:'27',c:'g'}
+{anchor:'cvg100',items:[{z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'36',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'36',h:'12',c:'g'}
+,{cr:'c',t:'A',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'36',h:'25',c:'g'}
+]},
+{anchor:'cvg101',items:[{z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'42',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'42',h:'10',c:'g'}
+,{cr:'c',t:'A',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'42',h:'27',c:'g'}
 ]}],
-b107:[{dummy:0},
-{anchor:'cvg108',items:[{z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',c:'G',p:'100.00'}
+b110:[{dummy:0},
+{anchor:'cvg111',items:[{z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',h:'39',c:'g'}
 ,{cr:'c',t:'A',z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',h:'1',c:'g'}
 ]}],
-b109:[{dummy:0},
-{anchor:'cvg110',items:[{z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',h:'25',c:'g'}
-,{cr:'c',t:'E',z:'                else begin',f:'scoreboard.sv',l:'91',h:'15',c:'g'}
+b112:[{dummy:0},
+{anchor:'cvg113',items:[{z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',h:'40',c:'g'}
+,{cr:'m',t:'E',z:'                else begin',f:'scoreboard.sv',l:'91',h:'0',c:'r'}
 ]}],
-b165:[{dummy:0},
-{anchor:'cvg166',items:[{z:'if(vif.drv_cb.rst==0)',f:'driver.sv',l:'43',c:'G',p:'100.00'}
+b168:[{dummy:0},
+{anchor:'cvg169',items:[{z:'if(vif.drv_cb.rst==0)',f:'driver.sv',l:'43',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'if(vif.drv_cb.rst==0)',f:'driver.sv',l:'43',h:'4',c:'g'}
 ,{cr:'c',t:'E',z:'	else',f:'driver.sv',l:'58',h:'36',c:'g'}
 ]}],
-b172:[{dummy:0},
-{anchor:'cvg173',items:[{z:'                                                if(vif.ref_cb.rst == 0) b...',f:'reference.sv',l:'25',c:'G',p:'100.00'}
+b175:[{dummy:0},
+{anchor:'cvg176',items:[{z:'                                                if(vif.ref_cb.rst == 0) b...',f:'reference.sv',l:'25',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'                                                if(vif.ref_cb.rst == 0) b...',f:'reference.sv',l:'25',h:'3',c:'g'}
 ,{cr:'c',t:'E',z:'						else begin',f:'reference.sv',l:'31',h:'37',c:'g'}
 ]},
-{anchor:'cvg174',items:[{z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'34',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'34',h:'12',c:'g'}
-,{cr:'c',t:'A',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'34',h:'25',c:'g'}
+{anchor:'cvg177',items:[{z:'							if(!trans_ref.w_en&&!trans_ref.r_en)',f:'reference.sv',l:'33',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'							if(!trans_ref.w_en&&!trans_ref.r_en)',f:'reference.sv',l:'33',h:'15',c:'g'}
+,{cr:'c',t:'A',z:'							if(!trans_ref.w_en&&!trans_ref.r_en)',f:'reference.sv',l:'33',h:'22',c:'g'}
 ]},
-{anchor:'cvg175',items:[{z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'40',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'40',h:'10',c:'g'}
-,{cr:'c',t:'A',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'40',h:'27',c:'g'}
+{anchor:'cvg178',items:[{z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'36',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'36',h:'12',c:'g'}
+,{cr:'c',t:'A',z:'							if(trans_ref.w_en && !trans_ref.r_en)',f:'reference.sv',l:'36',h:'25',c:'g'}
+]},
+{anchor:'cvg179',items:[{z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'42',c:'G',p:'100.00'}
+,{cr:'c',t:'I',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'42',h:'10',c:'g'}
+,{cr:'c',t:'A',z:'							if(trans_ref.r_en && !trans_ref.w_en)',f:'reference.sv',l:'42',h:'27',c:'g'}
 ]}],
-b182:[{dummy:0},
-{anchor:'cvg183',items:[{z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',c:'G',p:'100.00'}
+b188:[{dummy:0},
+{anchor:'cvg189',items:[{z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',c:'G',p:'100.00'}
 ,{cr:'c',t:'I',z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',h:'39',c:'g'}
 ,{cr:'c',t:'A',z:'			if(i!=(`num_transaction-1))',f:'scoreboard.sv',l:'65',h:'1',c:'g'}
 ]}],
-b184:[{dummy:0},
-{anchor:'cvg185',items:[{z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',c:'G',p:'100.00'}
-,{cr:'c',t:'I',z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',h:'25',c:'g'}
-,{cr:'c',t:'E',z:'                else begin',f:'scoreboard.sv',l:'91',h:'15',c:'g'}
+b190:[{dummy:0},
+{anchor:'cvg191',items:[{z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',c:'Y',p:'50.00'}
+,{cr:'c',t:'I',z:'                if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr])...',f:'scoreboard.sv',l:'75',h:'40',c:'g'}
+,{cr:'m',t:'E',z:'                else begin',f:'scoreboard.sv',l:'91',h:'0',c:'r'}
 ]}],
 dummyEnd:0
 };

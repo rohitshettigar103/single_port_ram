@@ -30,6 +30,8 @@ class ram_reference;
 				                end
 						else begin
 						@(vif.ref_cb);
+							if(!trans_ref.w_en&&!trans_ref.r_en)
+								trans_ref.data_out='z;
 						
 							if(trans_ref.w_en && !trans_ref.r_en)
 							begin

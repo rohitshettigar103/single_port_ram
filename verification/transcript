@@ -1,5 +1,5 @@
 # vsim -c top 
-# Start time: 16:25:52 on Jul 07,2026
+# Start time: 19:28:13 on Jul 07,2026
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # ** Warning: (vopt-3838) interface.sv(6): Variable 'data_out' written by continuous and procedural assignments. 
 # One of the assignments is implicit. See top.sv(31). Variable is procedurally driven by data_out in clocking block ref_cb. See (interface.sv:23).
@@ -27,47 +27,47 @@
 # One of the assignments is implicit. See top.sv(31).
 #    Time: 0 ns  Iteration: 0  Instance: /top/i1 File: interface.sv
 # Generated values
-# data_in: 33,w_en:0,r_en:1,addr:13
+# data_in: 33,w_en:1,r_en:0,addr:13
 # Generated values
-# data_in: 31,w_en:0,r_en:1,addr:18
+# data_in: 31,w_en:1,r_en:0,addr:18
 # Generated values
-# data_in: 24,w_en:0,r_en:1,addr:19
+# data_in: 24,w_en:1,r_en:0,addr:19
 # Generated values
-# data_in: 16,w_en:1,r_en:0,addr:18
+# data_in: 16,w_en:0,r_en:1,addr:18
 # Generated values
 # data_in:159,w_en:0,r_en:1,addr:28
 # Generated values
 # data_in: 90,w_en:1,r_en:0,addr:23
 # Generated values
-# data_in:138,w_en:1,r_en:0,addr:18
+# data_in:138,w_en:0,r_en:1,addr:18
 # Generated values
-# data_in:250,w_en:0,r_en:1,addr: 7
+# data_in:250,w_en:0,r_en:0,addr: 7
 # Generated values
-# data_in:238,w_en:0,r_en:1,addr:20
+# data_in:238,w_en:0,r_en:0,addr:20
 # Generated values
-# data_in:188,w_en:1,r_en:0,addr: 0
+# data_in:188,w_en:0,r_en:0,addr: 0
 # Generated values
-# data_in:231,w_en:1,r_en:0,addr: 5
+# data_in:231,w_en:0,r_en:0,addr: 5
 # Generated values
-# data_in:137,w_en:1,r_en:0,addr:11
+# data_in:137,w_en:0,r_en:0,addr:11
 # Generated values
 # data_in: 98,w_en:0,r_en:1,addr: 7
 # Generated values
-# data_in:172,w_en:0,r_en:1,addr:17
+# data_in:172,w_en:1,r_en:0,addr:17
 # Generated values
-# data_in:186,w_en:0,r_en:1,addr:21
+# data_in:186,w_en:1,r_en:0,addr:21
 # Generated values
-# data_in:215,w_en:0,r_en:1,addr:16
+# data_in:215,w_en:1,r_en:0,addr:16
 # Generated values
 # data_in:132,w_en:0,r_en:1,addr:25
 # Generated values
 # data_in: 23,w_en:0,r_en:1,addr: 2
 # Generated values
-# data_in: 89,w_en:0,r_en:1,addr:12
+# data_in: 89,w_en:0,r_en:0,addr:12
 # Generated values
-# data_in:  9,w_en:1,r_en:0,addr: 9
+# data_in:  9,w_en:0,r_en:0,addr: 9
 # Generated values
-# data_in: 83,w_en:0,r_en:1,addr: 9
+# data_in: 83,w_en:0,r_en:0,addr: 9
 # Generated values
 # data_in: 62,w_en:1,r_en:0,addr:23
 # Generated values
@@ -77,35 +77,35 @@
 # Generated values
 # data_in: 22,w_en:1,r_en:0,addr:27
 # Generated values
-# data_in: 33,w_en:0,r_en:1,addr:16
+# data_in: 33,w_en:0,r_en:0,addr:16
 # Generated values
 # data_in: 51,w_en:0,r_en:1,addr:23
 # Generated values
-# data_in:138,w_en:0,r_en:1,addr:28
+# data_in:138,w_en:1,r_en:0,addr:28
 # Generated values
-# data_in: 94,w_en:1,r_en:0,addr:31
+# data_in: 94,w_en:0,r_en:1,addr:31
 # Generated values
 # data_in: 13,w_en:1,r_en:0,addr:14
 # Generated values
-# data_in:129,w_en:1,r_en:0,addr:15
+# data_in:129,w_en:0,r_en:0,addr:15
 # Generated values
-# data_in:206,w_en:1,r_en:0,addr:18
+# data_in:206,w_en:0,r_en:1,addr:18
 # Generated values
 # data_in: 58,w_en:0,r_en:1,addr:30
 # Generated values
-# data_in:125,w_en:1,r_en:0,addr: 5
+# data_in:125,w_en:0,r_en:0,addr: 5
 # Generated values
-# data_in:248,w_en:0,r_en:1,addr: 4
+# data_in:248,w_en:1,r_en:0,addr: 4
 # Generated values
-# data_in:145,w_en:0,r_en:1,addr:18
+# data_in:145,w_en:1,r_en:0,addr:18
 # Generated values
-# data_in: 63,w_en:0,r_en:1,addr: 3
+# data_in: 63,w_en:0,r_en:0,addr: 3
 # Generated values
 # data_in: 17,w_en:1,r_en:0,addr: 4
 # Generated values
-# data_in: 46,w_en:0,r_en:1,addr:30
+# data_in: 46,w_en:0,r_en:0,addr:30
 # Generated values
-# data_in: 13,w_en:1,r_en:0,addr:29
+# data_in: 13,w_en:0,r_en:0,addr:29
 # Driving to interface
 # data_in:zz,w_en:0,r_en:0,addr:00
 ###############################[REFERENCE -SCOREBOARD],time:70,data_out=z | address=0 #####################
@@ -137,9 +137,9 @@
 # moitor passing value
 # data_out:zz
 ##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:150,data_out=z | address=0####################
-###############################[REFERENCE -SCOREBOARD],time:150,data_out=x | address=0 #####################
-# FAIL:  [SCOREBOARD]                 150REF data_out=x | MON_data_out=z
-# [MISMATCH] count = 1
+###############################[REFERENCE -SCOREBOARD],time:150,data_out=z | address=0 #####################
+# PASS:  [SCOREBOARD]                 150REF data_out=z | MON_data_out=z
+# [MATCH] count = 4
 # Driving to interface
 # data_in:5a,w_en:1,r_en:0,addr:17
 # moitor passing value
@@ -148,106 +148,101 @@
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:170,data_out=0 | address=1c####################
 ###############################[REFERENCE -SCOREBOARD],time:170,data_out=0 | address=1c #####################
 # PASS:  [SCOREBOARD]                 170REF data_out=0 | MON_data_out=0
-# [MATCH] count = 4
+# [MATCH] count = 5
 # Driving to interface
-# data_in:8a,w_en:1,r_en:0,addr:12
+# data_in:8a,w_en:0,r_en:1,addr:12
 # moitor passing value
 # data_out:zz
 # Reference: data into memory mem[17]=5a
 ##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:190,data_out=z | address=17####################
 ###############################[REFERENCE -SCOREBOARD],time:190,data_out=z | address=17 #####################
 # PASS:  [SCOREBOARD]                 190REF data_out=z | MON_data_out=z
-# [MATCH] count = 5
-# Driving to interface
-# data_in:fa,w_en:0,r_en:1,addr:07
-# moitor passing value
-# data_out:zz
-# Reference: data into memory mem[12]=8a
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:210,data_out=z | address=12####################
-###############################[REFERENCE -SCOREBOARD],time:210,data_out=z | address=12 #####################
-# PASS:  [SCOREBOARD]                 210REF data_out=z | MON_data_out=z
 # [MATCH] count = 6
 # Driving to interface
-# data_in:ee,w_en:0,r_en:1,addr:14
+# data_in:fa,w_en:0,r_en:0,addr:07
 # moitor passing value
 # data_out:00
-# Reference: data out at addr:07,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:230,data_out=0 | address=7####################
-###############################[REFERENCE -SCOREBOARD],time:230,data_out=0 | address=7 #####################
-# PASS:  [SCOREBOARD]                 230REF data_out=0 | MON_data_out=0
+# Reference: data out at addr:12,data_out:00
+##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:210,data_out=0 | address=12####################
+###############################[REFERENCE -SCOREBOARD],time:210,data_out=0 | address=12 #####################
+# PASS:  [SCOREBOARD]                 210REF data_out=0 | MON_data_out=0
 # [MATCH] count = 7
 # Driving to interface
-# data_in:bc,w_en:1,r_en:0,addr:00
+# data_in:ee,w_en:0,r_en:0,addr:14
 # moitor passing value
-# data_out:00
-# Reference: data out at addr:14,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:250,data_out=0 | address=14####################
-###############################[REFERENCE -SCOREBOARD],time:250,data_out=0 | address=14 #####################
-# PASS:  [SCOREBOARD]                 250REF data_out=0 | MON_data_out=0
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:230,data_out=z | address=7####################
+###############################[REFERENCE -SCOREBOARD],time:230,data_out=z | address=7 #####################
+# PASS:  [SCOREBOARD]                 230REF data_out=z | MON_data_out=z
 # [MATCH] count = 8
 # Driving to interface
-# data_in:e7,w_en:1,r_en:0,addr:05
+# data_in:bc,w_en:0,r_en:0,addr:00
 # moitor passing value
 # data_out:zz
-# Reference: data into memory mem[00]=bc
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:270,data_out=z | address=0####################
-###############################[REFERENCE -SCOREBOARD],time:270,data_out=z | address=0 #####################
-# PASS:  [SCOREBOARD]                 270REF data_out=z | MON_data_out=z
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:250,data_out=z | address=14####################
+###############################[REFERENCE -SCOREBOARD],time:250,data_out=z | address=14 #####################
+# PASS:  [SCOREBOARD]                 250REF data_out=z | MON_data_out=z
 # [MATCH] count = 9
 # Driving to interface
-# data_in:89,w_en:1,r_en:0,addr:0b
+# data_in:e7,w_en:0,r_en:0,addr:05
 # moitor passing value
 # data_out:zz
-# Reference: data into memory mem[05]=e7
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:290,data_out=z | address=5####################
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:270,data_out=z | address=0####################
+###############################[REFERENCE -SCOREBOARD],time:270,data_out=z | address=0 #####################
+# PASS:  [SCOREBOARD]                 270REF data_out=z | MON_data_out=z
+# [MATCH] count = 10
+# Driving to interface
+# data_in:89,w_en:0,r_en:0,addr:0b
+# moitor passing value
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:290,data_out=z | address=5####################
 ###############################[REFERENCE -SCOREBOARD],time:290,data_out=z | address=5 #####################
 # PASS:  [SCOREBOARD]                 290REF data_out=z | MON_data_out=z
-# [MATCH] count = 10
+# [MATCH] count = 11
 # Driving to interface
 # data_in:62,w_en:0,r_en:1,addr:07
 # moitor passing value
 # data_out:zz
-# Reference: data into memory mem[0b]=89
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:310,data_out=z | address=b####################
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:310,data_out=z | address=b####################
 ###############################[REFERENCE -SCOREBOARD],time:310,data_out=z | address=b #####################
 # PASS:  [SCOREBOARD]                 310REF data_out=z | MON_data_out=z
-# [MATCH] count = 11
+# [MATCH] count = 12
 # Driving to interface
-# data_in:ac,w_en:0,r_en:1,addr:11
+# data_in:ac,w_en:1,r_en:0,addr:11
 # moitor passing value
 # data_out:00
 # Reference: data out at addr:07,data_out:00
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:330,data_out=0 | address=7####################
 ###############################[REFERENCE -SCOREBOARD],time:330,data_out=0 | address=7 #####################
 # PASS:  [SCOREBOARD]                 330REF data_out=0 | MON_data_out=0
-# [MATCH] count = 12
-# Driving to interface
-# data_in:ba,w_en:0,r_en:1,addr:15
-# moitor passing value
-# data_out:00
-# Reference: data out at addr:11,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:350,data_out=0 | address=11####################
-###############################[REFERENCE -SCOREBOARD],time:350,data_out=0 | address=11 #####################
-# PASS:  [SCOREBOARD]                 350REF data_out=0 | MON_data_out=0
 # [MATCH] count = 13
 # Driving to interface
-# data_in:d7,w_en:0,r_en:1,addr:10
+# data_in:ba,w_en:1,r_en:0,addr:15
 # moitor passing value
-# data_out:00
-# Reference: data out at addr:15,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:370,data_out=0 | address=15####################
-###############################[REFERENCE -SCOREBOARD],time:370,data_out=0 | address=15 #####################
-# PASS:  [SCOREBOARD]                 370REF data_out=0 | MON_data_out=0
+# data_out:zz
+# Reference: data into memory mem[11]=ac
+##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:350,data_out=z | address=11####################
+###############################[REFERENCE -SCOREBOARD],time:350,data_out=z | address=11 #####################
+# PASS:  [SCOREBOARD]                 350REF data_out=z | MON_data_out=z
 # [MATCH] count = 14
+# Driving to interface
+# data_in:d7,w_en:1,r_en:0,addr:10
+# moitor passing value
+# data_out:zz
+# Reference: data into memory mem[15]=ba
+##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:370,data_out=z | address=15####################
+###############################[REFERENCE -SCOREBOARD],time:370,data_out=z | address=15 #####################
+# PASS:  [SCOREBOARD]                 370REF data_out=z | MON_data_out=z
+# [MATCH] count = 15
 # Driving to interface
 # data_in:84,w_en:0,r_en:1,addr:19
 # moitor passing value
-# data_out:00
-# Reference: data out at addr:10,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:390,data_out=0 | address=10####################
-###############################[REFERENCE -SCOREBOARD],time:390,data_out=0 | address=10 #####################
-# PASS:  [SCOREBOARD]                 390REF data_out=0 | MON_data_out=0
-# [MATCH] count = 15
+# data_out:zz
+# Reference: data into memory mem[10]=d7
+##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:390,data_out=z | address=10####################
+###############################[REFERENCE -SCOREBOARD],time:390,data_out=z | address=10 #####################
+# PASS:  [SCOREBOARD]                 390REF data_out=z | MON_data_out=z
+# [MATCH] count = 16
 # Driving to interface
 # data_in:17,w_en:0,r_en:1,addr:02
 # moitor passing value
@@ -256,43 +251,40 @@
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:410,data_out=0 | address=19####################
 ###############################[REFERENCE -SCOREBOARD],time:410,data_out=0 | address=19 #####################
 # PASS:  [SCOREBOARD]                 410REF data_out=0 | MON_data_out=0
-# [MATCH] count = 16
+# [MATCH] count = 17
 # Driving to interface
-# data_in:59,w_en:0,r_en:1,addr:0c
+# data_in:59,w_en:0,r_en:0,addr:0c
 # moitor passing value
 # data_out:00
 # Reference: data out at addr:02,data_out:00
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:430,data_out=0 | address=2####################
 ###############################[REFERENCE -SCOREBOARD],time:430,data_out=0 | address=2 #####################
 # PASS:  [SCOREBOARD]                 430REF data_out=0 | MON_data_out=0
-# [MATCH] count = 17
-# Driving to interface
-# data_in:09,w_en:1,r_en:0,addr:09
-# moitor passing value
-# data_out:00
-# Reference: data out at addr:0c,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:450,data_out=0 | address=c####################
-###############################[REFERENCE -SCOREBOARD],time:450,data_out=0 | address=c #####################
-# PASS:  [SCOREBOARD]                 450REF data_out=0 | MON_data_out=0
 # [MATCH] count = 18
 # Driving to interface
-# data_in:53,w_en:0,r_en:1,addr:09
+# data_in:09,w_en:0,r_en:0,addr:09
 # moitor passing value
 # data_out:zz
-# Reference: data into memory mem[09]=09
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:470,data_out=z | address=9####################
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:450,data_out=z | address=c####################
+###############################[REFERENCE -SCOREBOARD],time:450,data_out=z | address=c #####################
+# PASS:  [SCOREBOARD]                 450REF data_out=z | MON_data_out=z
+# [MATCH] count = 19
+# Driving to interface
+# data_in:53,w_en:0,r_en:0,addr:09
+# moitor passing value
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:470,data_out=z | address=9####################
 ###############################[REFERENCE -SCOREBOARD],time:470,data_out=z | address=9 #####################
 # PASS:  [SCOREBOARD]                 470REF data_out=z | MON_data_out=z
-# [MATCH] count = 19
+# [MATCH] count = 20
 # Driving to interface
 # data_in:3e,w_en:1,r_en:0,addr:17
 # moitor passing value
-# data_out:09
-# Reference: data out at addr:09,data_out:09
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:490,data_out=9 | address=9####################
-###############################[REFERENCE -SCOREBOARD],time:490,data_out=9 | address=9 #####################
-# PASS:  [SCOREBOARD]                 490REF data_out=9 | MON_data_out=9
-# [MATCH] count = 20
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:490,data_out=z | address=9####################
+###############################[REFERENCE -SCOREBOARD],time:490,data_out=z | address=9 #####################
+# PASS:  [SCOREBOARD]                 490REF data_out=z | MON_data_out=z
+# [MATCH] count = 21
 # Driving to interface
 # data_in:0d,w_en:0,r_en:1,addr:0c
 # moitor passing value
@@ -301,7 +293,7 @@
 ##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:510,data_out=z | address=17####################
 ###############################[REFERENCE -SCOREBOARD],time:510,data_out=z | address=17 #####################
 # PASS:  [SCOREBOARD]                 510REF data_out=z | MON_data_out=z
-# [MATCH] count = 21
+# [MATCH] count = 22
 # Driving to interface
 # data_in:4f,w_en:1,r_en:0,addr:1e
 # moitor passing value
@@ -310,7 +302,7 @@
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:530,data_out=0 | address=c####################
 ###############################[REFERENCE -SCOREBOARD],time:530,data_out=0 | address=c #####################
 # PASS:  [SCOREBOARD]                 530REF data_out=0 | MON_data_out=0
-# [MATCH] count = 22
+# [MATCH] count = 23
 # Driving to interface
 # data_in:16,w_en:1,r_en:0,addr:1b
 # moitor passing value
@@ -319,150 +311,144 @@
 ##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:550,data_out=z | address=1e####################
 ###############################[REFERENCE -SCOREBOARD],time:550,data_out=z | address=1e #####################
 # PASS:  [SCOREBOARD]                 550REF data_out=z | MON_data_out=z
-# [MATCH] count = 23
+# [MATCH] count = 24
 # Driving to interface
-# data_in:21,w_en:0,r_en:1,addr:10
+# data_in:21,w_en:0,r_en:0,addr:10
 # moitor passing value
 # data_out:zz
 # Reference: data into memory mem[1b]=16
 ##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:570,data_out=z | address=1b####################
 ###############################[REFERENCE -SCOREBOARD],time:570,data_out=z | address=1b #####################
 # PASS:  [SCOREBOARD]                 570REF data_out=z | MON_data_out=z
-# [MATCH] count = 24
+# [MATCH] count = 25
 # Driving to interface
 # data_in:33,w_en:0,r_en:1,addr:17
 # moitor passing value
-# data_out:00
-# Reference: data out at addr:10,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:590,data_out=0 | address=10####################
-###############################[REFERENCE -SCOREBOARD],time:590,data_out=0 | address=10 #####################
-# PASS:  [SCOREBOARD]                 590REF data_out=0 | MON_data_out=0
-# [MATCH] count = 25
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:590,data_out=z | address=10####################
+###############################[REFERENCE -SCOREBOARD],time:590,data_out=z | address=10 #####################
+# PASS:  [SCOREBOARD]                 590REF data_out=z | MON_data_out=z
+# [MATCH] count = 26
 # Driving to interface
-# data_in:8a,w_en:0,r_en:1,addr:1c
+# data_in:8a,w_en:1,r_en:0,addr:1c
 # moitor passing value
 # data_out:3e
 # Reference: data out at addr:17,data_out:3e
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:610,data_out=3e | address=17####################
 ###############################[REFERENCE -SCOREBOARD],time:610,data_out=3e | address=17 #####################
 # PASS:  [SCOREBOARD]                 610REF data_out=3e | MON_data_out=3e
-# [MATCH] count = 26
-# Driving to interface
-# data_in:5e,w_en:1,r_en:0,addr:1f
-# moitor passing value
-# data_out:00
-# Reference: data out at addr:1c,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:630,data_out=0 | address=1c####################
-###############################[REFERENCE -SCOREBOARD],time:630,data_out=0 | address=1c #####################
-# PASS:  [SCOREBOARD]                 630REF data_out=0 | MON_data_out=0
 # [MATCH] count = 27
+# Driving to interface
+# data_in:5e,w_en:0,r_en:1,addr:1f
+# moitor passing value
+# data_out:zz
+# Reference: data into memory mem[1c]=8a
+##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:630,data_out=z | address=1c####################
+###############################[REFERENCE -SCOREBOARD],time:630,data_out=z | address=1c #####################
+# PASS:  [SCOREBOARD]                 630REF data_out=z | MON_data_out=z
+# [MATCH] count = 28
 # Driving to interface
 # data_in:0d,w_en:1,r_en:0,addr:0e
 # moitor passing value
-# data_out:zz
-# Reference: data into memory mem[1f]=5e
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:650,data_out=z | address=1f####################
-###############################[REFERENCE -SCOREBOARD],time:650,data_out=z | address=1f #####################
-# PASS:  [SCOREBOARD]                 650REF data_out=z | MON_data_out=z
-# [MATCH] count = 28
+# data_out:00
+# Reference: data out at addr:1f,data_out:00
+##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:650,data_out=0 | address=1f####################
+###############################[REFERENCE -SCOREBOARD],time:650,data_out=0 | address=1f #####################
+# PASS:  [SCOREBOARD]                 650REF data_out=0 | MON_data_out=0
+# [MATCH] count = 29
 # Driving to interface
-# data_in:81,w_en:1,r_en:0,addr:0f
+# data_in:81,w_en:0,r_en:0,addr:0f
 # moitor passing value
 # data_out:zz
 # Reference: data into memory mem[0e]=0d
 ##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:670,data_out=z | address=e####################
 ###############################[REFERENCE -SCOREBOARD],time:670,data_out=z | address=e #####################
 # PASS:  [SCOREBOARD]                 670REF data_out=z | MON_data_out=z
-# [MATCH] count = 29
+# [MATCH] count = 30
 # Driving to interface
-# data_in:ce,w_en:1,r_en:0,addr:12
+# data_in:ce,w_en:0,r_en:1,addr:12
 # moitor passing value
 # data_out:zz
-# Reference: data into memory mem[0f]=81
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:690,data_out=z | address=f####################
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:690,data_out=z | address=f####################
 ###############################[REFERENCE -SCOREBOARD],time:690,data_out=z | address=f #####################
 # PASS:  [SCOREBOARD]                 690REF data_out=z | MON_data_out=z
-# [MATCH] count = 30
+# [MATCH] count = 31
 # Driving to interface
 # data_in:3a,w_en:0,r_en:1,addr:1e
 # moitor passing value
-# data_out:zz
-# Reference: data into memory mem[12]=ce
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:710,data_out=z | address=12####################
-###############################[REFERENCE -SCOREBOARD],time:710,data_out=z | address=12 #####################
-# PASS:  [SCOREBOARD]                 710REF data_out=z | MON_data_out=z
-# [MATCH] count = 31
+# data_out:00
+# Reference: data out at addr:12,data_out:00
+##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:710,data_out=0 | address=12####################
+###############################[REFERENCE -SCOREBOARD],time:710,data_out=0 | address=12 #####################
+# PASS:  [SCOREBOARD]                 710REF data_out=0 | MON_data_out=0
+# [MATCH] count = 32
 # Driving to interface
-# data_in:7d,w_en:1,r_en:0,addr:05
+# data_in:7d,w_en:0,r_en:0,addr:05
 # moitor passing value
 # data_out:4f
 # Reference: data out at addr:1e,data_out:4f
 ##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:730,data_out=4f | address=1e####################
 ###############################[REFERENCE -SCOREBOARD],time:730,data_out=4f | address=1e #####################
 # PASS:  [SCOREBOARD]                 730REF data_out=4f | MON_data_out=4f
-# [MATCH] count = 32
-# Driving to interface
-# data_in:f8,w_en:0,r_en:1,addr:04
-# moitor passing value
-# data_out:zz
-# Reference: data into memory mem[05]=7d
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:750,data_out=z | address=5####################
-###############################[REFERENCE -SCOREBOARD],time:750,data_out=z | address=5 #####################
-# PASS:  [SCOREBOARD]                 750REF data_out=z | MON_data_out=z
 # [MATCH] count = 33
 # Driving to interface
-# data_in:91,w_en:0,r_en:1,addr:12
+# data_in:f8,w_en:1,r_en:0,addr:04
 # moitor passing value
-# data_out:00
-# Reference: data out at addr:04,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:770,data_out=0 | address=4####################
-###############################[REFERENCE -SCOREBOARD],time:770,data_out=0 | address=4 #####################
-# PASS:  [SCOREBOARD]                 770REF data_out=0 | MON_data_out=0
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:750,data_out=z | address=5####################
+###############################[REFERENCE -SCOREBOARD],time:750,data_out=z | address=5 #####################
+# PASS:  [SCOREBOARD]                 750REF data_out=z | MON_data_out=z
 # [MATCH] count = 34
 # Driving to interface
-# data_in:3f,w_en:0,r_en:1,addr:03
+# data_in:91,w_en:1,r_en:0,addr:12
 # moitor passing value
-# data_out:ce
-# Reference: data out at addr:12,data_out:ce
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:790,data_out=ce | address=12####################
-###############################[REFERENCE -SCOREBOARD],time:790,data_out=ce | address=12 #####################
-# PASS:  [SCOREBOARD]                 790REF data_out=ce | MON_data_out=ce
+# data_out:zz
+# Reference: data into memory mem[04]=f8
+##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:770,data_out=z | address=4####################
+###############################[REFERENCE -SCOREBOARD],time:770,data_out=z | address=4 #####################
+# PASS:  [SCOREBOARD]                 770REF data_out=z | MON_data_out=z
 # [MATCH] count = 35
+# Driving to interface
+# data_in:3f,w_en:0,r_en:0,addr:03
+# moitor passing value
+# data_out:zz
+# Reference: data into memory mem[12]=91
+##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:790,data_out=z | address=12####################
+###############################[REFERENCE -SCOREBOARD],time:790,data_out=z | address=12 #####################
+# PASS:  [SCOREBOARD]                 790REF data_out=z | MON_data_out=z
+# [MATCH] count = 36
 # Driving to interface
 # data_in:11,w_en:1,r_en:0,addr:04
 # moitor passing value
-# data_out:00
-# Reference: data out at addr:03,data_out:00
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:810,data_out=0 | address=3####################
-###############################[REFERENCE -SCOREBOARD],time:810,data_out=0 | address=3 #####################
-# PASS:  [SCOREBOARD]                 810REF data_out=0 | MON_data_out=0
-# [MATCH] count = 36
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:810,data_out=z | address=3####################
+###############################[REFERENCE -SCOREBOARD],time:810,data_out=z | address=3 #####################
+# PASS:  [SCOREBOARD]                 810REF data_out=z | MON_data_out=z
+# [MATCH] count = 37
 # Driving to interface
-# data_in:2e,w_en:0,r_en:1,addr:1e
+# data_in:2e,w_en:0,r_en:0,addr:1e
 # moitor passing value
 # data_out:zz
 # Reference: data into memory mem[04]=11
 ##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:830,data_out=z | address=4####################
 ###############################[REFERENCE -SCOREBOARD],time:830,data_out=z | address=4 #####################
 # PASS:  [SCOREBOARD]                 830REF data_out=z | MON_data_out=z
-# [MATCH] count = 37
-# Driving to interface
-# data_in:0d,w_en:1,r_en:0,addr:1d
-# moitor passing value
-# data_out:4f
-# Reference: data out at addr:1e,data_out:4f
-##################################[MONITOR TO SCOREBOARD],w=0,r=1,time:850,data_out=4f | address=1e####################
-###############################[REFERENCE -SCOREBOARD],time:850,data_out=4f | address=1e #####################
-# PASS:  [SCOREBOARD]                 850REF data_out=4f | MON_data_out=4f
 # [MATCH] count = 38
+# Driving to interface
+# data_in:0d,w_en:0,r_en:0,addr:1d
 # moitor passing value
 # data_out:zz
-# Reference: data into memory mem[1d]=0d
-##################################[MONITOR TO SCOREBOARD],w=1,r=0,time:870,data_out=z | address=1d####################
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:850,data_out=z | address=1e####################
+###############################[REFERENCE -SCOREBOARD],time:850,data_out=z | address=1e #####################
+# PASS:  [SCOREBOARD]                 850REF data_out=z | MON_data_out=z
+# [MATCH] count = 39
+# moitor passing value
+# data_out:zz
+##################################[MONITOR TO SCOREBOARD],w=0,r=0,time:870,data_out=z | address=1d####################
 ###############################[REFERENCE -SCOREBOARD],time:870,data_out=z | address=1d #####################
 # PASS:  [SCOREBOARD]                 870REF data_out=z | MON_data_out=z
-# [MATCH] count = 39
+# [MATCH] count = 40
 # ** Note: $finish    : top.sv(40)
-#    Time: 870 ns  Iteration: 4  Instance: /top
-# End time: 16:25:54 on Jul 07,2026, Elapsed time: 0:00:02
+#    Time: 870 ns  Iteration: 3  Instance: /top
+# End time: 19:28:18 on Jul 07,2026, Elapsed time: 0:00:05
 # Errors: 0, Warnings: 2
