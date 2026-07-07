@@ -1,6 +1,7 @@
 `include "defines.svh"
 `include"ram_package.sv"
 `include "design.v"
+`include "interface.sv"
 
  
 module top(); 
@@ -10,12 +11,18 @@ module top();
 	logic clk; 
 	    logic rst; 
  
+	initial clk = 0;
   	initial 
      	forever #10 clk=~clk; // Period is 20ns --> Frequency is 50Mhz 
  
   	initial begin 
-    	@(posedge clk);rst=1; 
-      	repeat(1)@(posedge clk);rst=0; 
+    	@(posedge clk);rst=0; 
+      	repeat(1)@(posedge clk);rst=1;
+
+		@(posedge clk);
+		rst = 0;
+	 repeat(4) @(posedge clk);
+		rst = 1;	
     end 
 
 	inf i1(clk,rst); 

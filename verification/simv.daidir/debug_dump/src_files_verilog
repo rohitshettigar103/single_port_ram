@@ -1,0 +1,13 @@
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/defines.svh
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/design.v
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/driver.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/environment.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/generator.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/interface.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/monitor.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/ram_package.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/reference.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/scoreboard.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/test.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/top.sv
+/fetools/work_area/frontend/Batch_11/Rohit/single_port_ram/verification/transaction.sv

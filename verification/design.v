@@ -22,12 +22,17 @@ module RAM(
 //Variable declarations 
  reg [7:0] data_out ;
  reg [7:0] memory [0:31];
-
+ initial begin
+	 foreach(memory[i])memory[i]=0;
+ end
 //Memory Write Block Write Operation : When write_enb = 1,
 always @(posedge clk)
  begin 
   if(!reset)
-   memory[address] <= 8'bz;
+//Bug fixed
+	  foreach(memory[i])begin
+	  	memory[i]=0;
+	  end
   else if(write_enb && !read_enb) 
    memory[address] <= data_in;
  end 

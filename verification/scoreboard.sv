@@ -19,9 +19,9 @@ class ram_scoreboard;
  
         function new(
 
-                mailbox #(transaction) mbx_ref_scr,
+                mailbox #(transaction) mbx_mon_scr,
 
-                mailbox #(transaction) mbx_mon_scr
+                mailbox #(transaction) mbx_ref_scr
 
         );
 
@@ -33,7 +33,7 @@ class ram_scoreboard;
  
         task start();
 
-                repeat(`num_transaction) begin
+		for(int i=0;i<`num_transaction;i++)begin
 
                         fork
 
@@ -43,7 +43,7 @@ class ram_scoreboard;
 
                                         ref_mem[ref_scr_tr.addr] = ref_scr_tr.data_out;
 
-                                        $display("[SCOREBOARD/REFERENCE]",$time,"data_out=%0h | address=%0h",ref_scr_tr.data_out,ref_scr_tr.addr
+                                        $display("###############################[REFERENCE -SCOREBOARD],time:%0t,data_out=%0h | address=%0h #####################",$time,ref_mem[ref_scr_tr.addr],ref_scr_tr.addr
 
                                         );
 
@@ -55,17 +55,14 @@ class ram_scoreboard;
 
                                         mon_mem[mon_scr_tr.addr] = mon_scr_tr.data_out;
 
-                                        $display("[SCOREBOARD/MONITOR]",$time,"data_out=%0h | address=%0h",
-
-                                                mon_scr_tr.data_out,
-
-                                                mon_scr_tr.addr
+					$display("##################################[MONITOR TO SCOREBOARD],w=%d,r=%d,time:%0t,data_out=%0h | address=%0h####################",mon_scr_tr.w_en,mon_scr_tr.r_en,$time,mon_mem[mon_scr_tr.addr],mon_scr_tr.addr
 
                                         );
 
                                 end
 
                         join
+			if(i!=(`num_transaction-1))
  
                         compare_report();
 
@@ -77,13 +74,13 @@ class ram_scoreboard;
 
                 if(ref_mem[ref_scr_tr.addr] === mon_mem[mon_scr_tr.addr]) begin
 
-                        $display("[SCOREBOARD]",$time,"REF data_out=%0h | MON_data_out=%0h",
+                        $display("PASS:  [SCOREBOARD]",$time,"REF data_out=%0h | MON_data_out=%0h",
 
-                                ref_scr_tr.data_out,
+                             ref_mem[ref_scr_tr.addr],
 
-                                mon_scr_tr.data_out
+                              mon_mem[mon_scr_tr.addr]
 
-                        );
+			);
 
                         ++match;
 
@@ -93,11 +90,11 @@ class ram_scoreboard;
 
                 else begin
 
-                        $display("[SCOREBOARD]",$time,"REF data_out=%0h | MON_data_out=%0h",
+                        $display("FAIL:  [SCOREBOARD]",$time,"REF data_out=%0h | MON_data_out=%0h",
 
-                                ref_scr_tr.data_out,
+                             ref_mem[ref_scr_tr.addr],
 
-                                mon_scr_tr.data_out
+                              mon_mem[mon_scr_tr.addr]
 
                         );
 

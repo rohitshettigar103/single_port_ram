@@ -1,0 +1,14 @@
+var g_data = {
+a81:{
+scopes:[{s:'74',b:'1',val:'ram_package'},{val:'ram_generator'},{s:'80',b:'0',val:'start'},{link:'z.htm?f=0&s=81',val:'#ublk#100832437#13'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__14',fc:'Gr',pc:'Gr',h0:'0',h1:'40'}
+],
+},
+a156:{
+scopes:[{s:'149',b:'1',val:'work.ram_package'},{val:'ram_generator'},{s:'155',b:'0',val:'start'},{link:'z.htm?f=0&s=156',val:'#ublk#100832437#13'}]
+,assertions:[{dummy:0},{cr:'c',c:'g',z:'immed__14',fc:'Gr',pc:'Gr',h0:'0',h1:'40'}
+],
+},
+dummyEnd:0
+};
+processAssertionsData(g_data,1);

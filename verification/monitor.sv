@@ -13,19 +13,21 @@ class ram_monitor;
 
 
 	task start();
-		repeat(3) @(vif.mon_cb);
-
+		repeat(4) @(vif.mon_cb);
 		repeat(`num_transaction)
 		begin
 			trans2=new();
-			repeat(1)@(vif.mon_cb)
-			begin
+			@(vif.mon_cb);
+		
 			trans2.data_out=vif.mon_cb.data_out;
-			end
+			trans2.addr=vif.mon_cb.addr;
+			trans2.w_en=vif.mon_cb.w_en;
+			trans2.r_en=vif.mon_cb.r_en;
+			//trans2.rst=vif.mon_cb.rst;
+
 			$display("moitor passing value");
 			$display("data_out:%h",trans2.data_out);
 			mbx_mon.put(trans2);
-			repeat(1)@(vif.mon_cb);
 
 		end
 	endtask

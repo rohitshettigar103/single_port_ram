@@ -17,8 +17,8 @@ class ram_test;
 
 	task run();
 		env=new(drv_vif,ref_vif,mon_vif);
-		env.build;
-		env.start;
+		env.build();
+		env.start();
 	endtask
 endclass
 

@@ -22,7 +22,8 @@ class ram_environment;
         ram_reference ref_scr;
 
 
-        function new(virtual inf.DRV drv_vif,virtual inf.REF ref_vif,virtual inf.MON mon_vif);
+
+        function new(virtual inf drv_vif,virtual inf ref_vif,virtual inf mon_vif);
                 this.drv_vif=drv_vif;
                 this.ref_vif=ref_vif;
                 this.mon_vif=mon_vif;
